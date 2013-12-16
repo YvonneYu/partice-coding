@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <!--
@@ -14,346 +13,544 @@
 -->
 
 <html>
-  <head>
+<head>
     <title>Presentation</title>
 
     <meta charset='utf-8'>
     <script src='js/slides.js'></script>
-  </head>
+    <link href="css/font-awesome-4.0.3/css/font-awesome.css" rel="stylesheet">
+</head>
 
-  <body style='display: none'>
+<body style='display: none'>
 
-    <section class='slides layout-regular template-default'>
-      
+<section class='slides layout-regular template-default'>
 
-      <!--<article class='biglogo'>-->
-      <!--</article>-->
 
-      <article>
+    <!--<article class='biglogo'>-->
+    <!--</article>-->
+
+    <article>
         <h1>
-          Angular + Phonegap + SCSS
-          <br>
-            = weHelp
+            weHelp
         </h1>
-        <p>
-          Yvonne Yu
-          <br>
-          Dec 16, 2013
-        </p>
-      </article>
-      
-      <article>
-        <p>
-          This is a slide with just text. This is a slide with just text.
-          This is a slide with just text. This is a slide with just text.
-          This is a slide with just text. This is a slide with just text.
-        </p>
-        <p>
-          There is more text just underneath.
-        </p>
-      </article>
 
-      <article>
-        <h3>
-          Simple slide with header and text
-        </h3>
         <p>
-          This is a slide with just text. This is a slide with just text.
-          This is a slide with just text. This is a slide with just text.
-          This is a slide with just text. This is a slide with just text.
+            Yvonne Yu
+            <br>
+            Dec 16, 2013
         </p>
-        <p>
-          There is more text just underneath with a <code>code sample: 5px</code>.
-        </p>
-      </article>
+    </article>
 
-      <article class='smaller'>
-        <h3>
-          Simple slide with header and text (small font)
+    <article>
+        <h3 class="brBelow">
+            Native Apps
         </h3>
-        <p>
-          This is a slide with just text. This is a slide with just text.
-          This is a slide with just text. This is a slide with just text.
-          This is a slide with just text. This is a slide with just text.
-        </p>
-        <p>
-          There is more text just underneath with a <code>code sample: 5px</code>.
-        </p>
-      </article>
+        <div class="build">
+            <ul>
+                <li>
+                    針對一種裝置開發
+                </li>
+                <li>
+                    簡單的使用到手機的各種功能 (ex: 相機, GPS, 連絡人)
+                </li>
+                <li>
+                    簡單偵測使用者手勢
+                </li>
+                <li>
+                    可離線
+                </li>
+                <li>
+                    從 App Store 下載
+                </li>
+            </ul>
+            <h2 class='red'>PlzHelp 原先的開發方式</h2>
+        </div>
+    </article>
 
-      <article>
-        <h3>
-          Slide with bullet points and a longer title, just because we
-          can make it longer
-        </h3>
-        <ul>
-          <li>
-            Use this template to create your presentation
-          </li>
-          <li>
-            Use the provided color palette, box and arrow graphics, and
-            chart styles
-          </li>
-          <li>
-            Instructions are provided to assist you in using this
-            presentation template effectively
-          </li>
-          <li>
-            At all times strive to maintain Google's corporate look and feel
-          </li>
-        </ul>
-      </article>
+    <article>
+        <div class="build">
+            <h3>
+                Responsive Website
+            </h3>
+            <ul class="brBelow">
+                <li>
+                    畫面配合裝置視窗寬長, 顯示適合的畫面
+                </li>
+                <li>
+                    需要上網
+                </li>
+                <li>
+                    <a target="_blank" href='http://friendsoftheweb.com/'>demo</a>
+                </li>
+            </ul>
 
-      <article>
-        <h3>
-          Slide with bullet points that builds
+            <h3>
+                Mobile Web Apps
+            </h3>
+            <ul>
+                <li>
+                    畫面 Native-like
+                </li>
+                <li>
+                    需要上網, 把使用者導向專門給手機的網頁
+                </li>
+                <li>
+                    可用 JavaScript 去 使用/呼叫 手機功能
+                </li>
+            </ul>
+            <div class="red">
+                上面兩者幾乎相同, 差別是 Mobile Web Apps 的網頁只給手機專用, 可是 RWD 是全部裝置都支援
+            </div>
+        </div>
+
+    </article>
+
+    <article>
+        <h3 class="brBelow">
+            Hybird Apps
         </h3>
-        <ul class="build">
-          <li>
-            This is an example of a list
-          </li>
-          <li>
-            The list items fade in
-          </li>
-          <li>
-            Last one!
-          </li>
-        </ul>
 
         <div class="build">
-          <p>Any element with child nodes can build.</p>
-          <p>It doesn't have to be a list.</p>
+            <ul>
+                <li>
+                    Native-like (rendered in a browser)
+                </li>
+                <li>
+                    不同裝置顯示同樣畫面(cross-platform)
+                </li>
+                <li>
+                    使用工具把 Mobile Web 包成像是 Native App
+                </li>
+                <li>
+                    可離線 (限制較多)
+                </li>
+                <li>
+                    從 App Store 下載
+                </li>
+            </ul>
+            <p class="images">
+                <img style='height: 400px' src='images/chrome.png'>
+                <img style='height: 400px' src='images/iphone.jpg'>
+                <img style='height: 400px' src='images/android.jpg'>
+            </p>
         </div>
-      </article>
+    </article>
 
-      <article class='smaller'>
-        <h3>
-          Slide with bullet points (small font)
-        </h3>
-        <ul>
-          <li>
-            Use this template to create your presentation
-          <li>
-            Use the provided color palette, box and arrow graphics, and
-            chart styles
-          <li>
-            Instructions are provided to assist you in using this
-            presentation template effectively
-          <li>
-            At all times strive to maintain Google's corporate look and feel
-        </ul>
-      </article>
-
-      <article>
-        <h3>
-          Slide with a table
-        </h3>
-        
-        <table>
-          <tr>
-            <th>
-              Name
-            <th>
-              Occupation
-          <tr>
-            <td>
-              Luke Mahe
-            <td>
-              V.P. of Keepin�� It Real
-          <tr>
-            <td>
-              Marcin Wichary
-            <td>
-              The Michael Bay of Doodles
-        </table>
-      </article>
-      
-      <article class='smaller'>
-        <h3>
-          Slide with a table (smaller text)
-        </h3>
-        
-        <table>
-          <tr>
-            <th>
-              Name
-            <th>
-              Occupation
-          <tr>
-            <td>
-              Luke Mahe
-            <td>
-              V.P. of Keepin�� It Real
-          <tr>
-            <td>
-              Marcin Wichary
-            <td>
-              The Michael Bay of Doodles
-        </table>
-      </article>
-      
-      <article>
-        <h3>
-          Styles
-        </h3>
-        <ul>
-          <li>
-            <span class='red'>class="red"</span>
-          <li>
-            <span class='blue'>class="blue"</span>
-          <li>
-            <span class='green'>class="green"</span>
-          <li>
-            <span class='yellow'>class="yellow"</span>
-          <li>
-            <span class='black'>class="black"</span>
-          <li>
-            <span class='white'>class="white"</span>
-          <li>
-            <b>bold</b> and <i>italic</i>
-        </ul>
-      </article>
-      
-      <article>
+    <article>
         <h2>
-          Segue slide
+            Phonegap
         </h2>
-      </article>
+    </article>
 
-      <article>
-        <h3>
-          Slide with an image
-        </h3>
-        <p>
-          <img style='height: 500px' src='images/example-graph.png'>
-        </p>
-        <div class='source'>
-          Source: Sergey Brin
-        </div>
-      </article>
-
-      <article>
-        <h3>
-          Slide with an image (centered)
-        </h3>
-        <p>
-          <img class='centered' style='height: 500px' src='images/example-graph.png'>
-        </p>
-        <div class='source'>
-          Source: Larry Page
-        </div>
-      </article>
-
-      <article class='fill'>
-        <h3>
-          Image filling the slide (with optional header)
-        </h3>
-        <p>
-          <img src='images/example-cat.jpg'>
-        </p>
-        <div class='source white'>
-          Source: Eric Schmidt
-        </div>
-      </article>
-
-      <article>
-        <h3>
-          This slide has some code
-        </h3>
-        <section>
-        <pre>
-&lt;script type='text/javascript'&gt;
-  // Say hello world until the user starts questioning
-  // the meaningfulness of their existence.
-  function helloWorld(world) {
-    for (var i = 42; --i &gt;= 0;) {
-      alert('Hello ' + String(world));
-    }
-  }
-&lt;/script&gt;
-&lt;style&gt;
-  p { color: pink }
-  b { color: blue }
-  u { color: 'umber' }
-&lt;/style&gt;
-</pre>
-        </section>
-      </article>
-      
-      <article class='smaller'>
-        <h3>
-          This slide has some code (small font)
-        </h3>
-        <section>
-        <pre>
-&lt;script type='text/javascript'&gt;
-  // Say hello world until the user starts questioning
-  // the meaningfulness of their existence.
-  function helloWorld(world) {
-    for (var i = 42; --i &gt;= 0;) {
-      alert('Hello ' + String(world));
-    }
-  }
-&lt;/script&gt;
-&lt;style&gt;
-  p { color: pink }
-  b { color: blue }
-  u { color: 'umber' }
-&lt;/style&gt;
-</pre>
-        </section>
-      </article>
-      
-      <article>
+    <article class='smaller'>
         <q>
-          The best way to predict the future is to invent it.
+            PhoneGap is a free and open source framework that allows you to create mobile apps using standardized web APIs for the platforms you care about.
         </q>
         <div class='author'>
-          Alan Kay
+            <img style='height: 100px' src='images/phonegap-logo.png'>
         </div>
-      </article>
-      
-      <article class='smaller'>
-        <q>
-          A distributed system is one in which the failure of a computer 
-          you didn��t even know existed can render your own computer unusable.
-        </q>
-        <div class='author'>
-          Leslie Lamport
-        </div>
-      </article>
-      
-      <!--<article class='nobackground'>-->
-        <!--<h3>-->
-          <!--A slide with an embed + title-->
-        <!--</h3>-->
-        <!---->
-        <!--<iframe src='http://docs.angularjs.org/api/ng.directive:ngBind'></iframe>-->
-      <!--</article>-->
+    </article>
 
-      <!--<article class='nobackground'>-->
-        <!--<iframe src='http://jsfiddle.net/api/post/library/pure/'></iframe>-->
-      <!--</article>-->
-
-      <!--<article class='fill'>-->
-        <!--<h3>-->
-          <!--Full-slide embed with (optional) slide title on top-->
-        <!--</h3>-->
-        <!--<iframe src='http://angularjs.org/'></iframe>-->
-      <!--</article>-->
-      
-      <article>
+    <article>
         <h3>
-          Thank you!
+            build (3.0 以上版本)
         </h3>
-        
-        <ul>
-          <li>
-            <a href='http://www.google.com'>google.com</a>
+        <div class="build">
+            <h5>
+                使用 The Command-Line Interface (Node.js)
+            </h5>
+            <section>
+                <pre>&gt; phonegap create hello com.phonegap.example HelloWorld</pre>
+            </section>
+            <p>
+                <img class='centered' style='width: 800px' src='images/createPackage.png'>
+            </p>
+        </div>
+    </article>
+
+    <article>
+        <div class="build">
+            <p>
+                <img class='centered' style='width: 700px' src='images/buildAndroid.png'>
+            </p>
+            <p>
+                <img class='centered' style='height: 600px' src='images/androidPackage.png'>
+            </p>
+        </div>
+    </article>
+
+    <article>
+        <div class="build images">
+           <img style='height: 700px' src='images/eclipse.png'>
+           <img style="margin-top: 250px;margin-left: 100px;" src='images/apk.png'>
+        </div>
+    </article>
+
+    <article>
+        <h3 class="brBelow">
+            phonegap plugins
+        </h3>
+        <p>
+            <img class='centered' style='height: 500px' src='images/plugins.png'>
+        </p>
+    </article>
+
+    <article>
+        <h3>
+            官方的
+        </h3>
+        <ul class="brBelow">
+            <li>
+                手機常用的功能, 依照自己的需求自行下載
+            </li>
+            <li class="subli">
+                Camera, File System, InAppBrowser, etc
+            </li>
+            <li>
+                在官網有詳細的說明
+            </li>
         </ul>
-      </article>
+        <div class="build">
+            <h3>
+                非官方
+            </h3>
+            <ul>
+                <li>
+                    因為各種需求, 網路上有人寫好的各種 plugins
+                </li>
+                <li class="subli">
+                    Barcode Scanner, File Opener
+                </li>
+            </ul>
+        </div>
+    </article>
 
-    </section>
+    <article>
+        <h3>
+            www
+        </h3>
+        <p>
+            <img class='centered' style='height: 500px' src='images/www.png'>
+        </p>
+    </article>
 
-  </body>
+    <article>
+        <p>
+            <img class='centered' style='height: 500px' src='images/question2.jpg'>
+        </p>
+        <h2 class="yellow">
+            Any Questions?
+        </h2>
+    </article>
+
+    <article>
+        <h2>
+            Angular
+        </h2>
+    </article>
+
+    <article>
+        <h3>
+            What is Angular?
+        </h3>
+        <div class="build">
+            <h4>
+                google 開發的框架
+            </h4>
+            <p>
+                <img class='centered' style='width: 700px' src='images/angular-logo.jpg'>
+            </p>
+        </div>
+    </article>
+
+    <article>
+        <h3 class="brBelow">
+            MVC (Model-View-Controller)?
+        </h3>
+        <div class="build">
+            <div>
+                用 Controller 監聽/控制 Model ($scope)
+            </div>
+            <p>
+                <img class='centered' style='width: 700px' src='images/mvc.png'>
+            </p>
+        </div>
+    </article>
+
+    <article>
+        <h3 class="brBelow">
+            MVVM (Model-View-ViewModel) ?
+        </h3>
+        <div class="build">
+            <div>
+                用各種 Module 控制 Model ($scope), two-way data binding
+            </div>
+            <p>
+                <img class='centered' style='width: 550px' src='images/mvvm.png'>
+            </p>
+        </div>
+    </article>
+
+    <article>
+        <h3 class="brBelow">
+            MVW
+        </h3>
+        <div class="build">
+            <h3>
+                Model-View-Whatever
+            </h3>
+            <p>
+                <img class='centered' style='width: 800px' src='images/angular_bigpic.png'>
+            </p>
+        </div>
+    </article>
+
+    <article>
+        <div style="margin-top: 100px"></div>
+        <img class="centered" style='width: 500px' src='images/shock.jpg'>
+        <div style="font-size: 80px;text-align: center;margin-top: 50px;">
+            <span >DEMO TIME</span>
+        </div>
+    </article>
+
+    <article>
+        <p>
+            <img class='centered' style='height: 500px' src='images/question1.jpg'>
+        </p>
+        <h2>
+            Any Questions?
+        </h2>
+    </article>
+
+    <article>
+        <h2>
+            畫面
+        </h2>
+    </article>
+
+    <article>
+        <h3>
+            HTML Meta Tag
+        </h3>
+        <div class="build">
+            <h4>
+                Android
+            </h4>
+            <section>
+                <pre>&lt;meta name="viewport" content="user-scalable=no,
+        initial-scale=1.0, maximum-scale=1, minimum-scale=1,
+        width=device-width, height=device-height" /&gt;</pre>
+            </section>
+            <h4>
+                ios
+            </h4>
+            <section>
+                <pre>&lt;meta name="viewport" content="user-scalable=no,
+        initial-scale=1.0, maximum-scale=1, minimum-scale=1,
+        width=window.innerWidth, height=window.innerHeight" /&gt;</pre>
+            </section>
+        </div>
+    </article>
+    <article>
+        <h3>
+            absolute 使得畫面撐大不滑動
+        </h3>
+        <div class="build">
+            <section>
+                <pre>&lt;style&gt;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    &lt;/style&gt;</pre>
+            </section>
+        </div>
+    </article>
+    <article>
+        <h3>
+            media queries 處理不同 device-pixel-ratio 下畫面的顯示
+        </h3>
+        <div class="build">
+            <section>
+                <pre>&lt;style&gt;
+    @mixin retina-to($media-Ratina: 1.5) {
+    @if ($media-Ratina == 2) {
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (-webkit-device-pixel-ratio: 2) {  @content; }
+    }
+    @else if ($media-Ratina == 1.5) {
+    @media only screen and (max--moz-device-pixel-ratio: 1.5),
+        only screen and (-webkit-min-device-pixel-ratio: 1)
+                and (-webkit-max-device-pixel-ratio: 1.9),
+        only screen and (-webkit-device-pixel-ratio: 1.5),
+        only screen and (max-device-pixel-ratio: 1.5) {  @content; }
+    }
+&lt;/style&gt;</pre>
+            </section>
+        </div>
+    </article>
+    <article>
+        <h3>
+            使用 Font Icon 取代 png icon <i class="fa fa-thumbs-o-up"></i>
+        </h3>
+        <div class="build">
+            <h4>
+                縮放自如, 放大不失真
+            </h4>
+            <section>
+                <pre>&lt;style&gt;font-size: 3em;&lt;/style&gt;</pre>
+            </section>
+            <i style="font-size: 3em;" class="fa fa-thumbs-o-up"></i>
+            <h4>
+                變更 icon 顏色
+            </h4>
+            <section>
+                <pre>&lt;style&gt;color: #5000ff;&lt;/style&gt;</pre>
+            </section>
+            <i style="font-size: 3em;color: #5000ff;" class="fa fa-thumbs-o-up"></i>
+        </div>
+    </article>
+
+    <article class="smaller">
+        <h3>
+            用 CSS3 transition 取代 jQuery animation
+        </h3>
+        <div class="build">
+            <h5>jQuery</h5>
+            <section>
+<pre>$("#start").click(function(){
+  $("div").animate({
+    opacity: 0.5,
+    height:"25px",
+  } , 2000);
+});</pre>
+            </section>
+            <h5>css3</h5>
+            <section>
+<pre>div {
+    opacity:1;
+    height:20px;
+}
+div.click {
+    opacity:0.5px;
+    height:25px;
+    transition: opacity 2s, height 2s;
+}</pre>
+            </section>
+        </div>
+    </article>
+
+    <article>
+        <h3 class="brBelow">
+            <a target="_blank" href="https://github.com/acidb/mobiscroll">Mobiscroll</a>
+        </h3>
+        <div class="build">
+            <h5>
+                取代 date picker 跟 drop down list
+            </h5>
+            <p class="images">
+                <img style='height: 500px' src='images/mobius1.jpg'>
+                <img style='height: 500px' src='images/mobius2.jpg'>
+            </p>
+        </div>
+    </article>
+
+    <article>
+        <h3 class="brBelow">
+            <a target="_blank" href="http://topcoat.io/">topcoat-mobile</a>
+        </h3>
+        <div class="build">
+            <h5>
+                純 CSS 的 UI, radio button/ checkbox 樣式統一
+            </h5>
+            <p class="images">
+                <img style='height: 500px' src='images/chrome.png'>
+                <img style='height: 500px' src='images/iphone.jpg'>
+                <img style='height: 500px' src='images/android.jpg'>
+            </p>
+        </div>
+    </article>
+
+    <article>
+        <h4 class="brBelow">
+            <a target="_blank" href="http://filamentgroup.github.io/Overthrow/">overthrow</a>
+        </h4>
+        <div class="build">
+            <h5>
+                修正 Android 2.3 以下不能 scroll 的問題
+            </h5>
+            <h4 class="brBelow">
+                <a target="_blank" href="https://github.com/ftlabs/fastclick">fastclick</a>
+            </h4>
+            <h5>
+                解決 bind click event 在手機上, 會有 0.3s 遲疑的問題
+            </h5>
+            <h5>
+                改用 Angular ng-touch 取代. (touch event)
+            </h5>
+        </div>
+    </article>
+
+    <article>
+        <h2>
+            Debug
+        </h2>
+    </article>
+
+    <article>
+        <h4>
+            chrome 開發人員工具
+        </h4>
+        <div class="build">
+            <h4>
+                Android
+            </h4>
+            <ul>
+                <li>
+                        logcat
+                </li>
+                <li>
+                        <a target="_blank" href="http://debug.phonegap.com/">weinre</a>
+                    <span>
+                        在 head 中插入
+                        <section>
+                            <pre>&lt;script src="http://172.16.4.40:8082/target
+                 /target-script-min.angularjs#yvonne"&gt;&lt;/script&gt;</pre>
+                        </section>
+                    </span>
+                </li>
+            </ul>
+            <h4>
+                ios
+            </h4>
+            <ul>
+                    <li>
+                        xcode5
+                    </li>
+                    <li>
+                        Safari
+                    </li>
+            </ul>
+        </div>
+    </article>
+
+    <article>
+        <p>
+            <img class='centered' style='height: 500px' src='images/question3.jpg'>
+        </p>
+        <h2>
+            Any More Questions?
+        </h2>
+    </article>
+
+    <article>
+        <p>
+            <img class='centered' style='height: 600px' src='images/thanks.jpg'>
+        </p>
+    </article>
+
+</section>
+
+</body>
 </html>
